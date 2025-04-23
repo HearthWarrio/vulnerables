@@ -10,6 +10,13 @@
     <packaging>pom</packaging>
     <modules>
         <module>auth-service</module>
+        <module>user-service</module>
+        <module>file-upload-service</module>
+        <module>xml-import-service</module>
+        <module>template-service</module>
+        <module>fetcher-service</module>
+        <module>file-viewer-service</module>
+        <module>plugin-loader-service</module>
     </modules>
 
     <properties>
