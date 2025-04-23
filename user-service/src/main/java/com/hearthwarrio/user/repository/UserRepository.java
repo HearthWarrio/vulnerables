@@ -14,7 +14,7 @@ import java.util.Optional;
 import java.util.function.Function;
 
 @Repository
-public class UserRepository extends JpaRepository<User, Long> {
+public class UserRepository implements JpaRepository<User, Long> {
     @Override
     public void flush() {
 
